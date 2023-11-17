@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Jueguemos</title>
+</head>
+
+<body>
+<!--Barra de navegador-->
+  <nav>
+    <div class="contenedor1">
+      <a href="./index.html">
+      <!--Logo PC-->
+        <svg width="100" height="80">
+          <rect x="25" y="15" width="60" height="35" rx="0" fill="rgb(240,233,210)" id="PC1"></rect>
+          <rect x="30" y="20" width="50" height="25" rx="0" fill="rgb(73,85,121)" id="PC2" ></rect>
+          <polygon points="35 55 ,75 55,95 72,10 72" fill="rgb(240,233,210)" id="PC1"></polygon>
+          <polygon points="37 58 ,72 58,84 68,23 68" fill="rgb(73,85,121)" id="PC2"></polygon>
+        </svg>
+      </a>
+    </div>
+    <div class="contenedor2">
+      <a href="./historia.html" class="boton1">HISTORIA</a>
+      <a href="./juguemos.html" class="boton1">JUGUEMOS</a>
+    </div>
+  </nav>
+
+<!--Titulo principal-->
+  <header>
+    <div class="contenedor9">
+      <h1>JUGUEMOS UN POCO</h1>
+    </div>
+  </header>
+
+<!--Cuerpo-->
+  <main>
+    <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+    <div class="juego">
+      <div class="contenedor9">
+        <div class="caja" id="caja1">
+          <h5>Arrastre y suelte la imagen aquí</h5>
+        </div>
+        <div class="caja" id="caja2">
+          <h5>Arrastre y suelte la imagen aquí</h5>
+        </div>
+        <div class="caja" id="caja3">
+          <h5>Arrastre y suelte la imagen aquí</h5>
+        </div>
+      </div>
+    </div>
+      <div class="contenedor13">
+        <img class="imagenjuego" id="imagenj2" src="./IMAGENES/rompe2.png" alt="imagen juego" draggable="true">
+        <img class="imagenjuego" id="imagenj1" src="./IMAGENES/rompe1.png" alt="imagen juego" draggable="true">
+        <img class="imagenjuego" id="imagenj3" src="./IMAGENES/rompe3.png" alt="imagen juego" draggable="true">
+    </div>
+
+    <button onclick="reiniciar()" class="boton4">Reiniciar</button>
+  </main>
+
+
+<!--Pie de pagina-->
+<footer>
+  <div class="contenedor5">
+    <img src="./IMAGENES/logo.png" alt="Logo" id="imagen2">
+    <h4>PROGRAMACIÓN<br/>E<br/>HISTORIA<br/></h4>
+  </div>
+  <div class="contenedor6">
+    <H6>Sitio con fines educativos - Creado por Sebastian Dans</H6>
+  </div>
+</footer>
+
+<script src="./JS/script.js"></script>
+
+</body>
+</html>

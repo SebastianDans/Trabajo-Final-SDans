@@ -1,0 +1,402 @@
+body{
+  background-image: url(./IMAGENES/codigo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+
+/* ---FORMATO SECCIONES--- */
+
+nav{
+  background-color: rgb(24,28,48);
+  height: 80px;
+  margin: -8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header{
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  background-color: rgb(24,28,48);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer{
+  background-color: rgb(103,137,131);
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.juego{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+
+/* ---FORMATO CONTENEDORES--- */
+
+.contenedor1{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor2{
+  width: 15%;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor3{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor4{
+  width: 100%;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contenedor5{
+  width: 15%;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.contenedor6{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor7{
+  width: 90%;
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(12,80%vh);
+  column-gap: 20px;
+  row-gap: 80px;
+  padding: 20px;
+}
+
+.contenedor8{
+  width: 100%;
+  padding-top: 110px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contenedor9{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contenedor10{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+  width: 95.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(49,39,39);
+  border-radius: 8px;
+}
+
+.contenedor11{
+  display: flex;
+  gap: 20px;
+}
+
+.contenedor12{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0,0,0);
+}
+
+.contenedor13{
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* ---FORMATO TARJETAS HISTORIA--- */
+
+.tarjeta1{
+  width: 350px;
+  height: 400px;
+  margin: 40px;
+  background-color: rgb(230,221,196);
+  border: 5px solid rgb(103,137,131);
+  text-align: center;
+}
+.tarjeta2{
+  width: 350px;
+  height: 400px;
+  margin: 40px;
+  background-color: rgb(230,221,196);
+  border: 5px solid rgb(103,137,131);
+  text-align: center;
+}
+.tarjeta3{
+  grid-column: 1/7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tarjeta4{
+  grid-column: 7/12;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+}
+.tarjeta5{
+  grid-column: 1/6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.tarjeta6{
+  grid-column: 6/12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjeta7{
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjeta8{
+  grid-column: 3/12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+
+/* ---FORMATO CAJAS JUEGO--- */
+
+.caja{
+  width: 280px;
+  height: 400px;
+  margin: 5px;
+  background-color: rgb(128,128,128);
+  border: 2px solid rgb(0,0,0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.caja:hover{
+  background-color: rgb(49,39,39);
+}
+
+
+/* ---FORMATO BOTONES--- */
+
+.boton1{
+  padding: 10px;
+  background-color: rgb(230,221,196);
+  box-shadow: 2px 3px 1px rgb(103,137,131);
+  color: rgb(0,0,0);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.boton2{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 30px;
+  color: rgb(230,221,196);
+  background-color: rgb(24,28,48);
+  box-shadow: 2px 3px 1px rgb(103,137,131);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.boton3{
+  width: 80px;
+  padding: 10px;
+  background-color: rgb(230,221,196);
+  box-shadow: 2px 3px 1px rgb(103,137,131);
+  color: rgb(0,0,0);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.boton3:active{
+  transform: translate(5px, 5px);
+  box-shadow: 1px 1px 1px rgb(0,0,0);
+}
+
+.boton4{
+  width: 200px;
+  padding: 10px;
+  margin: 50px;
+  background-color: rgb(230,221,196);
+  box-shadow: 2px 3px 1px rgb(103,137,131);
+  color: rgb(0,0,0);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/* ---FORMATO TEXTOS--- */
+
+/* ---TITULO PRINCIPAL--- */
+h1 {
+  color: rgb(238,238,238);
+  text-shadow: 2px 2px 1px rgb(128,128,128), 5px 5px 4px rgb(0,0,0);
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+/* ---SUBTITULO---  */
+h2 {
+  color: rgb(103,137,131);
+  font-size: 40px;
+  text-shadow: 2px 2px 1px rgb(0,0,0);
+}
+
+/* ---FOOTER TEXTO IZQUIERDA--- */
+h4{
+  color: rgb(24,28,48);
+  font-size: 14px;
+}
+
+/* ---PARRAFOS HISTORIA--- */
+h5 {
+  color: rgb(230,221,196);
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+/* ---FOOTER TEXTO DERECHA--- */
+h6{
+  color: rgb(24,28,48);
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+/* ---FORMATO IMAGENES--- */
+
+#imagen1 {
+  width: 350px;
+  height: 200px;
+}
+
+#imagen2 {
+  height: 80px;
+}
+
+#imagenj1,#imagenj2,#imagenj3 {
+  width: 280px;
+  height: 400px;
+  margin: 5px;
+}
+
+
+/* ---FORMATO VIDEO--- */
+
+#video {
+  width: 100%;
+}
+
+
+/* ---ANIMACION LOGO PC--- */
+
+#PC1{
+  animation: aparecer ease-in 4s;
+  animation-iteration-count:1 ;
+}
+@keyframes aparecer {
+  0% {
+    transform: translate(0,-5px); opacity:0;}
+  25% {
+    transform: translate(0,-20px); opacity:0;}
+  50% {
+    transform: translate(0,0); opacity:1;}
+  80% {
+    transform: translate(0,0); opacity:1;}
+  100% {
+    transform: translate(0,0); opacity:1;}
+}
+#PC2{
+  animation: aparecer ease-in 6s;
+  animation-iteration-count:1 ;
+}
+@keyframes aparecer {
+  0% {
+    transform: translate(0,-10px); opacity:0;}
+  25% {
+    transform: translate(0,-10px); opacity:0;}
+  50% {
+    transform: translate(0,0); opacity:1;}
+  80% {
+    transform: translate(0,0); opacity:1;}
+  100% {
+    transform: translate(0,0); opacity:1;}
+}
